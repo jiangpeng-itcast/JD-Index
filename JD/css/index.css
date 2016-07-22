@@ -1,0 +1,1274 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+h2, h3 {
+    font-family: "microsoft yahei";
+    font-weight: 400;
+}
+
+.m, .mb, .mc, .mt, .p-detail, .p-img, .p-market, .p-name, .p-price, .sm, .smb, .smc, .smt {
+    overflow: hidden;
+}
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+
+/*背景广告start*/
+.banner604 {
+    position: relative;
+}
+
+.banner604 a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 604px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+
+/*背景广告end*/
+
+/*主体部分start*/
+.focus {
+    position: relative;
+}
+
+.focus .slider {
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+
+.focus .circle {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.focus .circle li {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3E3E3E;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.focus .circle li.current {
+    background-color: #B61B1F;
+}
+
+.focus .arrow-l, .arrow-r {
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top: -31px;
+    color: #fff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0, 0, 0, .2);
+}
+
+.focus .arrow-l {
+    left: 0;
+}
+
+.focus .arrow-r {
+    right: 0;
+}
+
+.focus .arrow-l:hover, .focus .arrow-r:hover {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+}
+
+/*主体部分end*/
+
+/*京东快报start*/
+.news {
+    width: 248px;
+    height: 451px;
+    border: 1px solid #E4E4E4;
+    float: right;
+    margin-top: 12px;
+}
+
+.jd-news {
+    height: 200px;
+    border-bottom: 1px dashed #E4E4E4; /*虚线*/
+}
+
+.jd-news .dt, .lifeservi .dt {
+    height: 43px;
+    border-bottom: 1px dotted #E8E8E7; /*点线*/
+    line-height: 43px;
+}
+
+.jd-news .dt h3, .lifeservi .dt h3 {
+    float: left;
+    font: 14px/43px "microsoft yahei";
+    color: #666;
+    padding-left: 15px;
+}
+
+.jd-news .dt a {
+    float: right;
+    font: 13px/43px "宋体";
+    margin-right: 15px;
+}
+
+.jd-news .dd ul {
+    padding: 8px 0 0 15px;
+}
+
+.jd-news .dd li {
+    line-height: 28px;
+}
+
+.jd-news .dd li span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+/*京东快报end*/
+
+/*生活服务start*/
+.lifeservi {
+    height: 251px;
+    overflow: hidden;
+    width: 248px;
+}
+
+.lifeservi ul {
+    width: 252px;
+}
+
+.lifeservi ul li {
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    float: left;
+    margin-left: -1px;
+}
+
+.lifeservi li a {
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+
+.lifeservi li i {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+
+.lifeservi-icon2 a i {
+    background-position: right -25px;
+}
+
+.lifeservi .song {
+    background: url(../images/song.png) no-repeat right top;
+}
+
+/*生活服务end*/
+
+/*今日推荐start*/
+.todays {
+    position: relative;
+    margin: 10px 0 20px;
+}
+
+.night {
+    margin: 10px 0 28px 0;
+}
+
+.night-r {
+    width: 1000px;
+    height: 160px;
+    float: right;
+    overflow: hidden;
+}
+
+.night-r ul {
+    width: 500%;
+    _width: 400%;
+}
+
+.night-r li {
+    float: left;
+    margin-right: 1px;
+}
+
+/*今日推荐end*/
+
+/*猜你喜欢start*/
+
+.guessyou {
+    margin-bottom: 20px;
+}
+
+/*猜你喜欢标题部分*/
+.guessyou .mt {
+    height: 36px;
+}
+
+.guessyou h2 {
+    float: left;
+    padding-right: 228px;
+    background: url(../images/homebg.png) no-repeat 85px -91px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.guessyou .extra {
+    float: right;
+    margin-top: 8px;
+    padding-right: 25px;
+    background: url(../images/homebg.png) no-repeat -310px -5px;
+}
+
+.guessyou .spacer {
+    position: relative;
+    height: 1px;
+    margin-top: 2px;
+    line-height: 0;
+    font-size: 0;
+    background-color: #d1d1d1;
+}
+
+.guessyou .spacer i {
+    width: 365px;
+    height: 5px;
+    position: absolute;
+    top: -2px;
+    right: 0;
+    background: url(../images/homebg.png) no-repeat 0 -124px;
+}
+
+/*猜你喜欢内容部分*/
+.guessyou ul {
+    height: 210px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.guessyou li {
+    float: left;
+    width: 201px;
+    padding-bottom: 15px;
+}
+
+.guessyou .p-img {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.guessyou .p-info {
+    padding: 0 36px;
+}
+
+.guessyou .p-name {
+    height: 36px;
+    margin-bottom: 6px;
+}
+
+.guessyou .p-price {
+    color: #b51d1a;
+    font-size: 18px;
+}
+
+.guessyou .p-price i {
+    font-size: 14px;
+}
+
+/*猜你喜欢end*/
+
+/*京东特色购start*/
+.jd-special {
+    margin-bottom: 20px;
+}
+
+.jd-special h2 {
+    line-height: 36px;
+    font-size: 20px;
+}
+
+.jd-special .ts-content {
+    /*border-left: solid 1px #ededed;*/
+    border-top: solid 1px #ededed;
+    height: 402px;
+}
+
+.jd-special .ts-content-left {
+    width: 201px;
+    float: left;
+    display: inline;
+}
+
+.jd-special .ts-item {
+    width: 200px;
+    border-bottom: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    color: #666;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    font-family: "microsoft yahei";
+}
+
+.jd-special .ts-item .tit {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.jd-special .ts-item span {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.jd-special .ts-tit-i {
+    width: 28px;
+    height: 16px;
+    background: url(../images/bg.png) no-repeat;
+}
+
+.jd-special .ts-tit-i-l {
+    background-position: 0 center;
+}
+
+.jd-special .ts-tit-i-r {
+    background-position: -30px center;
+}
+
+.jd-special .ts-item .sub-tit {
+    position: absolute;
+    top: 47px;
+    height: 18px;
+    overflow: hidden;
+    width: 100%;
+    color: #c81623;
+}
+
+.jd-special .ts-content-center {
+    width: 404px;
+    float: left;
+    display: inline;
+}
+
+.jd-special .ts-item-main {
+    width: 403px;
+}
+
+.jd-special .ts-item-main div {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    left: 20px;
+    top: 60px;
+    width: 160px;
+}
+
+.jd-special .ts-item-main .ts-m-tit {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 10px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.jd-special .ts-item-main .ts-m-subtit {
+    font-size: 16px;
+    line-height: 16px;
+    color: #333;
+    padding-bottom: 10px;
+    height: 16px;
+    overflow: hidden;
+}
+
+.jd-special .ts-item-main .ts-m-button {
+    display: inline-block;
+    background: #e7004d;
+    color: #fff;
+    width: 137px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.jd-special .ts-brands {
+    float: left;
+    width: 201px;
+    overflow: hidden;
+    margin-bottom: -1px;
+    height: 200px;
+    border-bottom: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    background: #f7f7f7;
+}
+
+.ts-brands .ts-brands-con {
+    overflow: hidden;
+    height: 199px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+}
+
+.jd-special .ts-brands-con .item {
+    float: left;
+    display: inline;
+    width: 100px;
+    height: 39px;
+    border-right: dashed 1px #e0e0e0;
+    border-bottom: dashed 1px #e0e0e0;
+    text-align: center;
+}
+
+.jd-special .ts-content-right {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width: 604px;
+}
+
+.jd-special .ts-item .tit-l {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    height: 16px;
+    width: 30px;
+    overflow: hidden;
+    font-weight: 400;
+    background: #dd4957;
+}
+
+.jd-special .ts-content .ts-item-2row {
+    width: 400px;
+}
+
+.jd-special .static-item-more ul {
+    margin-left: 15px;
+}
+
+.jd-special .static-item-more li {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 0;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+}
+
+/*京东特色右部下方红色文字*/
+.tkw {
+    color: #c81623;
+    display: inline;
+}
+
+.jd-special .ts-item2 {
+    border-bottom: solid 1px #ededed;
+    border-right: solid 1px #ededed;
+    color: #666;
+    height: 200px;
+    width: 201px;
+    text-align: center;
+    position: relative;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    font-family: "microsoft yahei";
+}
+
+.jd-special .ts-item-more-m {
+    width: 195px;
+    height: 111px;
+    margin-top: 77px;
+    border: none;
+    border-left: 1px dashed #e0e0e0;
+}
+
+.jd-special .ts-item2 .tit {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.jd-special .ts-item2 .tit .tit-l {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    vertical-align: middle;
+    height: 16px;
+    width: 30px;
+    overflow: hidden;
+    font-weight: 400;
+    background: #dd4957;
+}
+
+.jd-special .ts-item2 .tit span {
+    display: inline-block;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.jd-special .ts-item2 .sub-tit {
+    position: absolute;
+    left: 0;
+    top: 47px;
+    height: 18px;
+    overflow: hidden;
+    width: 100%;
+    color: #dd4957;
+}
+
+/*京东特色购end*/
+
+/*楼层广告start*/
+.floor-banner-body {
+    width: 1210px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.floor-banner {
+    height: 110px;
+    margin-bottom: 30px;
+}
+
+.floor-banner .floor-banner-main {
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+/*楼层广告end*/
+
+/*楼层start*/
+.floor {
+    margin-bottom: 30px;
+}
+
+.floor .mt {
+    border-bottom: 1px solid #c81623;
+    height: 36px;
+    overflow: visible; /*这样被选中的a标签才能够遮挡住底边框*/
+}
+
+/*mt左侧start*/
+.floor h2 {
+    padding-left: 40px;
+    color: #333;
+    float: left;
+    display: inline;
+    line-height: 30px;
+    font-size: 20px;
+    position: relative;
+}
+
+.floor h2 i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 21px;
+    height: 25px;
+    padding-right: 10px;
+    background: url(../images/sprite_floor.png) no-repeat;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+/*mt左侧end*/
+
+/*mt右侧start*/
+.floor-tab {
+    float: right;
+    border: solid 1px #ededed;
+    border-bottom: 0 none;
+}
+
+.floor-tab-item {
+    float: left;
+    height: 34px;
+    width: 58px;
+    position: relative;
+}
+
+.floor-tab-item-four {
+    width: 82px;
+}
+
+.floor-tab-item a {
+    display: inline-block;
+    padding: 0 16px 0 16px;
+    height: 34px;
+    line-height: 33px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 3px solid #FFFFFF;
+}
+
+.floor-tab-item span {
+    position: absolute;
+    width: 1px;
+    background: #ccc;
+    overflow: hidden;
+    height: 14px;
+    top: 10px;
+    right: 0;
+}
+
+.floor-tab .selected a {
+    border-top: 3px solid #C81623;
+    border-left: 1px solid #C81623;
+    border-right: 1px solid #C81623;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #FFFFFF;
+    z-index: 1;
+    height: 34px;
+    text-indent: 1px;
+    line-height: 34px;
+}
+
+/*mt右侧end*/
+
+/*mc开始*/
+.floor .banner {
+    position: relative;
+    height: 474px;
+}
+
+.floor .banner a {
+    display: block;
+    height: 475px;
+}
+
+.floor .side {
+    float: left;
+    width: 330px;
+}
+
+.floor .themes {
+    position: relative;
+    padding-left: 10px;
+    margin-top: -237px;
+    background: rgba(255, 255, 255, .5);
+    height: 92px;
+}
+
+.floor .words a {
+    float: left;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+.floor .words li {
+    float: left;
+    width: 135px;
+    height: 48px;
+    padding: 7px 0 0 25px;
+}
+
+.floor .side {
+    float: left;
+}
+
+.floor .main {
+    float: left;
+    position: relative;
+}
+
+.floor .main-extra {
+    float: left;
+    width: 220px;
+}
+
+.floor .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 439px;
+    height: 236px;
+    overflow: hidden;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+
+/*mc结束*/
+
+/*brands开始*/
+
+.brands {
+    margin-top: 10px;
+    padding: 13px 0;
+    background-color: #f7f7f7;
+}
+
+.brands ul {
+    height: 40px;
+}
+
+.brands li {
+    float: left;
+    width: 120px;
+    height: 40px;
+    border-left: 1px dotted #ccc;
+    text-align: center;
+}
+
+.brands li.fore1 {
+    border-left: none;
+}
+
+/*brands结束*/
+
+/*楼层end*/
+
+/*一楼服饰start*/
+
+.clothes .mc {
+    height: 633px;
+}
+
+.floor .main-inner a {
+    display: block;
+}
+
+.clothes .themes {
+    padding-left: 25px;
+    margin-top: -221px;
+    position: relative;
+}
+
+.floor .themes {
+    margin-top: -237px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.floor .themes li {
+    float: left;
+    width: 100px;
+    height: 26px;
+    padding: 10px 0;
+    font: normal 14px/26px "microsoft yahei";
+}
+
+.floor .themes i {
+    float: left;
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    background: url(../images/clothesicon.png) no-repeat;
+}
+
+.floor .assists {
+    position: relative;
+    height: 48px;
+    padding: 21px 0 0;
+    font-size: 14px;
+    line-height: 24px;
+    background: rgba(255, 255, 255, .7);
+}
+
+.floor .assists li {
+    float: left;
+    width: 180px;
+    height: 24px;
+    padding-left: 25px;
+}
+
+.floor .words {
+    position: relative;
+    height: 76px;
+    background: rgba(255, 255, 255, .7);
+}
+
+.clothes .themes .clothes-icon1 {
+    background-position: 0 0;
+}
+
+.clothes .themes .clothes-icon2 {
+    background-position: 0 -26px;
+}
+
+.clothes .themes .clothes-icon3 {
+    background-position: 0 -52px;
+}
+
+.clothes .themes .clothes-icon4 {
+    background-position: 0 -78px;
+}
+
+.clothes .themes .clothes-icon5 {
+    background-position: 0 -104px;
+}
+
+.clothes .themes .clothes-icon6 {
+    background-position: 0 -130px;
+}
+
+.clothes .words {
+    position: relative;
+    height: 128px;
+}
+
+.clothes .words li {
+    height: 96px;
+    padding-top: 16px;
+}
+
+.main-body-padding {
+    padding-top: 316px;
+}
+
+.main-body-margin {
+    margin-top: -158px;
+}
+
+.floor .main-body {
+    float: left;
+    width: 660px;
+}
+
+.clothes .main-body li {
+    float: left;
+    height: 158px;
+}
+
+.floor .main-inner a {
+    display: block;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+
+.clothes .main-body li.fr {
+    float: right;
+}
+
+.clothes .slider {
+    position: absolute;
+    top: 158px;
+    left: 0;
+    width: 439px;
+    height: 315px;
+    margin: 0;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.clothes .side-extra {
+    width: 328px;
+    height: 158px;
+    border: 1px solid #ededed;
+    border-left: 1px solid #f7f5ee;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.floor .slider .slider-nav ul {
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 5px;
+    text-align: center;
+}
+
+.floor .slider .slider-nav li {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin: 0 2px;
+    background: #3e3e3e;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.floor .slider .slider-page a {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    z-index: 1;
+    display: block;
+    width: 28px;
+    height: 62px;
+    line-height: 62px;
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: simsun;
+}
+
+.floor .slider .slider-page a.slider-prev {
+    left: 0;
+}
+
+.floor .slider .slider-page a.slider-next {
+    right: 0;
+}
+
+/*一楼服饰end*/
+
+/*二楼美妆star*/
+.cosmetics .side {
+    width: 210px;
+}
+
+.cosmetics .words li {
+    width: 165px;
+}
+
+.cosmetics .main {
+    width: 1000px;
+}
+
+.cosmetics .main-inner {
+    padding-left: 340px;
+}
+
+.cosmetics .main-body {
+    width: 440px;
+}
+
+.cosmetics .main-body li {
+    float: left;
+    width: 220px;
+}
+
+.cosmetics .main-body li.fore {
+    height: 297px;
+}
+
+.cosmetics .slider {
+    width: 339px;
+    height: 473px;
+}
+
+/*二楼美妆end*/
+
+/*三楼手机start*/
+.mobiles .themes {
+    height: 46px;
+    padding-left: 25px;
+}
+
+.mobiles .assists li {
+    width: 135px;
+}
+
+.mobiles .words {
+    height: 122px;
+}
+
+.mobiles .words li {
+    height: 96px;
+}
+
+.mobiles .main-body li {
+    float: left;
+    height: 237px;
+}
+
+.mobiles .main-body li.fore {
+    height: 118px;
+    padding-left: 440px;
+}
+
+.mobiles .main-extra li.fore {
+    height: 237px;
+}
+
+/*三楼手机end*/
+
+/*四楼家电start*/
+
+.electronics .themes {
+    height: 46px;
+}
+
+.electronics .themes li {
+    width: 145px;
+    padding: 10px 0 10px 15px;
+}
+
+.electronics .assists li {
+    width: 135px;
+}
+
+.electronics .words {
+    height: 122px;
+}
+
+.electronics .words li {
+    height: 96px;
+}
+
+.electronics .main-body li {
+    float: left;
+    height: 237px;
+}
+
+.electronics .main-body li.fore {
+    height: 118px;
+    padding-left: 440px;
+}
+
+.electronics .main-extra li.fore {
+    height: 237px;
+}
+
+/*四楼家电end*/
+
+/*天天低价star*/
+.special {
+    float: left;
+    width: 900px;
+    margin-bottom: 20px;
+}
+
+.special .mt {
+    height: 36px;
+}
+
+.special h2 {
+    font-size: 20px;
+}
+
+.special .mc {
+    width: 899px;
+    height: 281px;
+    border: solid #E5E5E5;
+    border-width: 1px 0 1px 1px;
+}
+
+.special .mc ul {
+    width: 910px;
+}
+
+.special .mc li.fore {
+    width: 219px;
+    height: 245px;
+}
+
+.special .mc li.fore .p-img {
+    margin-bottom: 10px;
+}
+
+.special .mc li {
+    float: left;
+    width: 199px;
+    height: 104px;
+    padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+
+.special .mc li.fore .p-img {
+    width: 219px;
+    height: 180px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.special .mc li .p-img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.special .mc li.fore .p-info {
+    width: 200px;
+}
+
+.special .mc li .p-info {
+    float: right;
+    width: 94px;
+}
+
+.special .mc li.fore .p-name {
+    height: 18px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.special .mc li .p-name {
+    height: 36px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.special .mc li.fore .p-price {
+    float: left;
+}
+
+.special .mc li .p-price {
+    margin-bottom: 5px;
+}
+
+.special .mc .p-price span {
+    display: block;
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.special .mc .p-price span {
+    display: block;
+    color: #e12228;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*天天低价end*/
+
+/*热门晒单start*/
+.share {
+    float: left;
+    width: 310px;
+}
+
+.share .mt {
+    height: 36px;
+}
+
+.share h2 {
+    font-size: 20px;
+}
+
+.share .mc {
+    width: 268px;
+    height: 226px;
+    padding: 35px 20px 20px;
+    border: 1px solid #EDEDED;
+}
+
+.share .sw {
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+}
+
+.share .mc li {
+    height: 100px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.share .p-img {
+    float: left;
+    display: inline;
+    padding: 10px 0;
+    width: 80px;
+    height: 80px;
+}
+
+.share .p-info {
+    float: left;
+    width: 166px;
+    padding-left: 20px;
+    margin-top: 3px;
+}
+
+.share .author-info {
+    height: 28px;
+    margin-bottom: 5px;
+}
+
+.share .author-info img {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.share .p-detail {
+    position: relative;
+    width: 130px;
+    height: 34px;
+    padding: 10px 15px 10px 20px;
+    background: #f8f8f8;
+    color: #999;
+    overflow: visible;
+}
+
+.share .icon-r {
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    vertical-align: -24px;
+    font-family: Arial;
+}
+
+.share .detail-arrow {
+    position: absolute;
+    left: -9px;
+    top: 19px;
+    color: #f8f8f8;
+    font-size: 20px;
+}
+
+.share .icon-l {
+    position: absolute;
+    left: 4px;
+    top: 7px;
+    font-size: 38px;
+    line-height: 38px;
+    color: #aaa;
+    font-family: Arial;
+}
+
+/*热门晒单end*/
